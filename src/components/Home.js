@@ -12,8 +12,8 @@ const Home = () => {
       </h1>
      <p className='mt-4 text-lg textgray-300'>I specialize in building modern and responsive web applications.</p>
 <div className='mt-8 space-x-4'>
-<a href="https://wa.me/+92 3347775040" className="bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">Contact With Me</a>
-<a href="https://docs.google.com/document/d/1S-bttBU-gqDGMCBsii5yen0q0Yz4IsNNMXuLlcWzJ30/edit?tab=t.0" className="bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-500 hover:scale-105 px-4 py-2 rounded-full">View Resume</a>
+<a href="https://wa.me/+92 3347775040" className="bg-gradient-to-r from-green-400 to-blue-500 text-white  md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">Contact With Me</a>
+<a href="https://docs.google.com/document/d/1S-bttBU-gqDGMCBsii5yen0q0Yz4IsNNMXuLlcWzJ30/edit?tab=t.0" className="bg-gradient-to-r from-green-400 to-blue-500 text-white md:inline transform transition-transform duration-500 hover:scale-105 px-4 py-2 rounded-full">View Resume</a>
 
     
 </div>
