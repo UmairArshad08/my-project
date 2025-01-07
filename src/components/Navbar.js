@@ -22,12 +22,12 @@ const Navbar = () => {
             Projects
           </a>
           <a href="#contact" className="hover:text-gray-400">
-            Contact Us
+            Contact
           </a>
         </div>
 
         <button className="hidden md:inline bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">
-          Contact Me
+          Contact with me
         </button>
 
         <button

@@ -21,27 +21,47 @@ const About = () => {
             </p>
             <div className="space-y-4">
               <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-3/12 md:w-2/12 text-sm md:text-base">
+                <label
+                  htmlFor="htmlandcss"
+                  className="w-3/12 md:w-2/12 text-sm md:text-base"
+                >
                   HTML & CSS
-                </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
-                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-10/12"></div>
-                </div>
-              </div>
-              <div className="flex items-center">
-                <label htmlFor="tailwind" className="w-3/12 md:w-2/12 text-sm md:text-base">
-                  Tailwind.CSS
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-11/12"></div>
                 </div>
               </div>
               <div className="flex items-center">
-                <label htmlFor="reactjs" className="w-3/12 md:w-2/12 text-sm md:text-base">
+                <label
+                  htmlFor="tailwind"
+                  className="w-3/12 md:w-2/12 text-sm md:text-base"
+                >
+                  Tailwind
+                </label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-11/12"></div>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <label
+                  htmlFor="reactjs"
+                  className="w-3/12 md:w-2/12 text-sm md:text-base"
+                >
                   React.js
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-10/12"></div>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <label
+                  htmlFor="htmlandcss"
+                  className="w-3/12 md:w-2/12 text-sm md:text-base"
+                >
+                  Figma
+                </label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-11/12"></div>
                 </div>
               </div>
             </div>
