@@ -46,7 +46,7 @@ const Projects = () => {
         {projects.map((project, idx) => (
           <motion.div
             key={project.id}
-            className="p-6 bg-gray-800 rounded-lg hover:scale-105 transform transition"
+            className="p-6 bg-gray-800 rounded-lg transform transition-transform duration-300 hover:scale-105"
             whileHover={{ scale: 1.1 }}
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
