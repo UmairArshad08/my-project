@@ -1,38 +1,42 @@
-import React from "react";
+import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-8">
-      <div className="container mx-auto px-6 text-center">
-        <p className="text-lg mb-2">© 2025 M Umair. All Rights Reserved.</p>
-
-        <div className="flex justify-center space-x-6 ">
+    <footer className="bg-gray-900 text-white py-6">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+        <p className="text-sm text-center md:text-left">
+          © {new Date().getFullYear()} Muhammad Umair Arshad. All rights reserved.
+        </p>
+        <div className="flex space-x-4 mt-4 md:mt-0">
           <a
-            href="https://www.linkedin.com"
-            className="text-gray-400 hover:text-white"
+            href="https://github.com/UmairArshad08"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition"
+            aria-label="GitHub"
           >
-            LinkedIn
+            <FaGithub size={20} />
           </a>
           <a
-            href="https://github.com"
-            className="text-gray-400 hover:text-white"
+            href="https://x.com/MuhammadUm89285"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition"
+            aria-label="Twitter"
           >
-            GitHub
+            <FaTwitter size={20} />
           </a>
           <a
-            href="mailto:your-email@example.com"
-            className="text-gray-400 hover:text-white"
+            href="https://www.linkedin.com/in/muhammad-umair-arshad-16b741349/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition"
+            aria-label="LinkedIn"
           >
-            Email
+            <FaLinkedin size={20} />
           </a>
         </div>
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}
